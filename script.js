@@ -18,7 +18,7 @@ function HitNum() {
 // this function is made to make the bubble
 function Newbubbles() {
  	var bubble ="";
-	for (let i = 1; i<=195; i++) {
+	for (let i = 1; i<=181; i++) {
 		let ran =Math.floor(Math.random()*10)
 		bubble +=`<div id="bubble">${ran}</div>`;
 	}
